@@ -24,6 +24,7 @@ config BT_MAX_PAIRED
 
 endif
 
+# dongle
 if SHIELD_DACTYL_DONGLE
 
 config ZMK_KEYBOARD_NAME
@@ -35,6 +36,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT
 	default y
 
+# dongle
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 	int
     default 2
