@@ -97,8 +97,9 @@
         bslh {
             bindings = <&kp BSLH>;
             key-positions = <31 32>;
-            timeout-ms = <75>;
+            timeout-ms = <50>;
             layers = <0 4>;
+            require-prior-idle-ms = <100>;
         };
 
         pipe {
